@@ -1,0 +1,22 @@
+/* You can add global styles to this file, and also import other style files */
+
+html {
+    font-size: 62.5%;
+}
+
+/* Fonts */
+.poppins-medium {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 1.4rem;
+}
+
+/* poppins-semibold */
+body {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 1.8rem;
+}
+
