@@ -1,0 +1,11 @@
+<article *ngIf="cartItems.length > 0; else elseBlock">
+    <div class="cart">
+        @for (item of cartItems; track item) {
+            <cart-item [cartItem]="item" />
+        }
+    </div>
+</article>
+
+<ng-template #elseBlock>
+    Products will show once you add them to cart
+</ng-template>

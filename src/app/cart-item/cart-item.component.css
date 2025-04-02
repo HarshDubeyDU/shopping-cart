@@ -9,8 +9,11 @@ article {
     align-items: center;
 }
 
-item-detail {
-    margin-left: 2rem;
+@media (min-width: 720px) {
+    item-detail {
+        margin-left: 2rem;
+        width: 17.5rem;
+    }
 }
 
 @media (min-width: 720px) {

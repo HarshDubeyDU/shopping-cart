@@ -5,6 +5,7 @@ import {ItemDetailComponent} from '../item-detail/item-detail.component';
 import {TotalItemsComponent} from '../total-items/total-items.component';
 import {PriceComponent} from '../price/price.component';
 import {DeleteItemComponent} from '../delete-item/delete-item.component';
+import {ItemQuantityChangeComponent} from '../item-quantity-change/item-quantity-change.component';
 
 @Component({
   selector: 'cart-item',
@@ -13,7 +14,8 @@ import {DeleteItemComponent} from '../delete-item/delete-item.component';
         ItemDetailComponent,
         TotalItemsComponent,
         PriceComponent,
-        DeleteItemComponent
+        DeleteItemComponent,
+        ItemQuantityChangeComponent
     ],
   templateUrl: './cart-item.component.html',
   styleUrl: './cart-item.component.css'
