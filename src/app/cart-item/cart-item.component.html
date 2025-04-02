@@ -7,4 +7,12 @@
         [itemName]="cartItem.itemName"
         [itemDescription]="cartItem.itemDescription"
     />
+    <total-items
+        [totalItems]="cartItem.itemQuantity"
+    />
+<!--    TODO: // arrows for increasing and decreasing the item quantitiy-->
+    <price
+        [itemPrice]="cartItem.itemPrice"
+    />
+    <delete-item [height]="25" [width]="25" />
 </article>

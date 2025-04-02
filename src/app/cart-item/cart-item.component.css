@@ -1,13 +1,33 @@
-article {
-    display: flex;
-}
-
-item-detail {
-
-}
-
 .component-effect {
     border-radius: 1rem;
     box-shadow: 0 0 5px grey;
     padding: 1rem;
 }
+
+article {
+    display: flex;
+    align-items: center;
+}
+
+item-detail {
+    margin-left: 2rem;
+}
+
+@media (min-width: 720px) {
+    total-items {
+        margin-left: 12rem;
+    }
+}
+
+@media (min-width: 720px) {
+    price {
+        margin-left: 7rem;
+    }
+}
+
+@media (min-width: 720px) {
+    delete-item {
+        margin-left: 4rem;
+    }
+}
+

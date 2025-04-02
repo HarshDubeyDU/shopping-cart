@@ -2,12 +2,18 @@ import {Component, Input} from '@angular/core';
 import {Cart} from '../interface/cart';
 import {ItemImageComponent} from '../item-image/item-image.component';
 import {ItemDetailComponent} from '../item-detail/item-detail.component';
+import {TotalItemsComponent} from '../total-items/total-items.component';
+import {PriceComponent} from '../price/price.component';
+import {DeleteItemComponent} from '../delete-item/delete-item.component';
 
 @Component({
   selector: 'cart-item',
     imports: [
         ItemImageComponent,
-        ItemDetailComponent
+        ItemDetailComponent,
+        TotalItemsComponent,
+        PriceComponent,
+        DeleteItemComponent
     ],
   templateUrl: './cart-item.component.html',
   styleUrl: './cart-item.component.css'
