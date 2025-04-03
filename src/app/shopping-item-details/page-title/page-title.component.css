@@ -1,0 +1,9 @@
+hr {
+    border: 0.15rem solid #D0CFCF;
+    margin-top: 2.5rem;
+    margin-bottom: 3rem;
+}
+
+img:hover {
+    cursor: pointer;
+}

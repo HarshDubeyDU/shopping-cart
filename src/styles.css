@@ -6,6 +6,9 @@ html {
 
 body {
     margin: 4.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 /* Fonts */
@@ -24,3 +27,19 @@ body {
     font-size: 1.8rem;
 }
 
+/* separation of product list and payment gateway form */
+app-root {
+    display: flex;
+    grid-template-columns: 2fr 1fr;
+    grid-gap: 5.5rem;
+}
+
+/* payment */
+app-payment {
+    background-color: #565ABB;
+    height: 64.5rem;
+    width: 38.5rem;
+    padding: 1.8rem;
+    border-radius: 2rem;
+    color: #FEFCFC;
+}

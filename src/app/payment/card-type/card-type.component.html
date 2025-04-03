@@ -1,0 +1,9 @@
+<p class="poppins-medium">Card type</p>
+<span>
+    @for (card of cardProviderImage; track card) {
+        <card-provider
+            [cardProviderImageUrl]="card.url"
+            [cardProviderImageAlt]="card.alt"
+        />
+    }
+</span>

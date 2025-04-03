@@ -1,0 +1,11 @@
+span {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    height: 2rem;
+    width: 2rem;
+}
+
+img:hover {
+    cursor: pointer;
+}

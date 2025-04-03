@@ -1,0 +1,12 @@
+@for (arrow of arrows; track arrow.url) {
+    <span>
+        <img
+            [ngSrc]="arrow.url"
+            [alt]="arrow.alt"
+            fill
+            loading="lazy"
+            (mouseenter)="arrow.url = fillArrow(arrow.url)"
+            (mouseleave)="arrow.url = emptyArrow(arrow.url)"
+        />
+    </span>
+}

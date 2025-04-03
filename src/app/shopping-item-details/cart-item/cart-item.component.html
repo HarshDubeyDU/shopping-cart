@@ -1,0 +1,22 @@
+<article class="component-effect">
+    <span class="flex">
+        <item-image
+            [src]="cartItem.itemImageUrl"
+            [alt]="cartItem.itemImageDescription"
+        />
+        <item-detail
+            [itemName]="cartItem.itemName"
+            [itemDescription]="cartItem.itemDescription"
+        />
+    </span>
+    <span class="flex">
+        <total-items
+            [totalItems]="cartItem.itemQuantity"
+        />
+        <item-quantity-change />
+    </span>
+    <price
+        [itemPrice]="cartItem.itemPrice"
+    />
+    <delete-item [height]="25" [width]="25" />
+</article>
