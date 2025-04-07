@@ -2,10 +2,12 @@
     <img
         [ngSrc]="cardProviderImageUrl"
         [alt]="cardProviderImageAlt"
+        (error)="this.cardProviderImageUrl = this.imagePlaceholder"
         height="55"
         width="75"
         loading="lazy"
         [placeholder]="imagePlaceholder"
+        [placeholderConfig]="{ blur: false }"
         class="background-effect"
     />
 </abbr>

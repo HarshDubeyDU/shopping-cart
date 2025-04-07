@@ -42,4 +42,5 @@ app-payment {
     padding: 1.8rem;
     border-radius: 2rem;
     color: #FEFCFC;
+    box-sizing: border-box;
 }

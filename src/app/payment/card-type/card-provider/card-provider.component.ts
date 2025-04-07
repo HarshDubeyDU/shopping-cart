@@ -13,5 +13,5 @@ export class CardProviderComponent {
     @Input() cardProviderImageUrl: string = "/images/master-card.svg";
     @Input() cardProviderImageAlt: string = "Master card";
 
-    imagePlaceholder = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUAAAAACAIAAAD0G1zUAAAAF0lEQVR42mJ8//8/wcAAgAB/0gD5gAAAABJRU5ErkJggg==";
+    imagePlaceholder = "/images/card-provider-placeholder.svg";
 }
